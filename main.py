@@ -11,4 +11,4 @@ res3=requests.get(url3).json()
 
 champ_lst=(res['data']['Aatrox']['key'], res['data']['Aatrox']['name'])
 champ_lst2=(res['data']['Ahri']['key'], res['data']['Ahri']['name'])
-champ_lst3=(res['data']['Ahri']['key'], res['data']['Amumu']['name'])
+champ_lst3=(res['data']['Amumu']['key'], res['data']['Amumu']['name'])
